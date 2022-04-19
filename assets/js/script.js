@@ -4,15 +4,15 @@ const momento = document.querySelector("#estados");
 
 elementoBotao.addEventListener("click", () => {
     if(elementoBotao.value == "primeiro"){
-        elementoImagem.src = "../img/medrosa.jpg"
+        elementoImagem.src = "../Proj1-m2/assets/img/medrosa.jpg"
         elementoBotao.value = "segundo"
         momento.innerHTML = "medrosa"
     }else if(elementoBotao.value == "segundo"){
-        elementoImagem.src = "../img/corajosa.jpg"
+        elementoImagem.src = "../Proj1-m2/assets/img/corajosa.jpg"
         elementoBotao.value = "terceiro"
         momento.innerHTML = "corajosa"
     }else{
-       elementoImagem.src = "../img/meiga.jpg"
+       elementoImagem.src = "../Proj1-m2/assets/img/meiga.jpg"
        momento.innerHTML = "Meiga"
     }
 });
