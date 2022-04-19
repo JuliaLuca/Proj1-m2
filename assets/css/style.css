@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+header{
+    margin-bottom: 5rem;
+    background-color: yellow;
+    opacity: 0.6;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+
+}
+header h1#tituloDaPag{
+    font-size: 4rem;
+    text-align: center;
+    font-family:'Beau Rivage', cursive;;
+}
+body{
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+}
+footer a#corFooter{
+    color: black;
+}
+section h2{
+    text-align: center;
+    font-size: 2rem ;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+section:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+
+}
+section#imagem{
+    border-radius: 50rem;
+
+}
+section h2 span#estados{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Beau Rivage', cursive;
+    color: rgb(201, 6, 39)
+}
+section{
+    display: flex;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 2rem;
+    background: hsl(60, 94%, 70%);
+    padding: 2rem;
+    margin: auto;
+    width:30vw;
+    box-shadow: 5rem 5rem 10rem rgb(0 0 0 / 34%);
+    justify-content: space-around;
+}
+section#alterar{
+    font-size: 1rem;
+}
+section#tam{
+    
+    background-color: hsl(60, 98%, 56%);
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 50rem;
+    width: 15vw;
+    box-shadow: 5rem 5rem 10rem rgb(0 0 0 / 34%);
+}
+ section button{
+    background-color:rgb(201, 6, 39) ;
+    width: 15vw;
+    height: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: hsl(60, 98%, 56%);
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+section button:hover{
+    background-color: hsl(60, 98%, 56%);
+    color: rgb(201, 6, 39);
+}
+
+footer{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: serif;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(14, 88, 201);
+    padding-bottom: 1rem;
+    padding: 4rem;
+    align-items: center;
+}
+/*usar hover e transição, nav imagens e sinopse do filme, &copy, cursor pointer
